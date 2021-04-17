@@ -27,12 +27,19 @@
                 <h1>Pariwisata Bogor</h1>
                 <h3>Sistem Informasi Pariwisata Bogor</h3>
             </hgroup>
-            <nav>
-                <ul>
-                    <li><a href="<?= base_url().'index.php/web' ?>">Home</a></li>
-                    <li><a href="<?= base_url().'index.php/web/' ?>">Gallery</a></li>
-                    <li><a href="<?= base_url().'index.php/web/' ?>">Buku Tamu</a></li>
-                </ul>
-            </nav>
+            <div class="w3-bar w3-light-grey">
+                <a href="<?php echo base_url().'index.php/web' ?>" class="w3-bar-item w3-button">Home</a>
+                <a href="#" class="w3-bar-item w3-button">Gallery</a>
+                <a href="#" class="w3-bar-item w3-button">Buku Tamu</a>
+                <div class="w3-dropdown-hover">
+                <button class="w3-button">Informasi Kota</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="<?php echo base_url().'index.php/web/kuliner' ?>" class="w3-bar-item w3-button">Kuliner</a>
+                    <a href="<?php echo base_url().'index.php/web/wisata' ?>" class="w3-bar-item w3-button">Wisata Rekreasi</a>
+                    <a href="<?php echo base_url().'index.php/web/hotel' ?>" class="w3-bar-item w3-button">Hotel</a>
+                </div>
+                </div>
+                <a href="#" class="w3-bar-item w3-button">Login</a>
+            </div>
             <div class="clear"></div>
         </header>
