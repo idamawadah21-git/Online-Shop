@@ -29,7 +29,7 @@
             </hgroup>
             <div class="w3-bar w3-light-grey">
                 <a href="<?php echo base_url().'index.php/web' ?>" class="w3-bar-item w3-button">Home</a>
-                <a href="#" class="w3-bar-item w3-button">Gallery</a>
+                <a href="<?php echo base_url().'index.php/web/gallery' ?>" class="w3-bar-item w3-button">Gallery</a>
                 <a href="#" class="w3-bar-item w3-button">Buku Tamu</a>
                 <div class="w3-dropdown-hover">
                 <button class="w3-button">Informasi Kota</button>

@@ -11,6 +11,12 @@ class Web extends CI_Controller{
         $this->load->view('v_index',$data);
         $this->load->view('v_footer',$data);
         }
+        public function gallery(){
+            $data['judul'] = 'Gallery';
+            $this->load->view('v_header',$data);
+            $this->load->view('v_gallery',$data);
+            $this->load->view('v_footer',$data);
+        }
         public function kuliner(){
             $data['judul'] = 'Kuliner';
             $this->load->view('v_header',$data);
