@@ -13,9 +13,7 @@
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url() ?>assets/bootstrap/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url() ?>assets/bootstrap/css/sb-admin-2.min.css" rel="stylesheet">
@@ -40,13 +38,13 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Welcome</h1>
                                     </div>
-                                    <form action="<?php echo base_url().'index.php/web/admin' ?>" method="POST" enctype="multipart/form-data">
+                                    <form action="<?php echo base_url() . 'index.php/web/admin' ?>" method="POST" enctype="multipart/form-data">
                                         <label for="fname">First name:</label>
                                         <input type="text" name="username"><br><br>
                                         <label for="lname">Last name:</label>
                                         <input type="text" name="password"><br><br>
                                         <input type="submit" value="Submit">
-                                        </form>
+                                    </form>
                                     <hr>
                                 </div>
                             </div>
